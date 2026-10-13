@@ -4,6 +4,20 @@ Vitrine online para uma loja de roupas femininas de bairro. O cliente escolhe as
 
 Projeto desenvolvido como **extensão universitária**, em parceria com a proprietária da loja.
 
+## Demonstração
+
+> As imagens das peças são ilustrativas, usadas apenas para demonstrar a proposta.
+
+![Vitrine de looks](docs/vitrine.jpeg)
+
+| Pedido com total | Próximas encomendas | Tabela de medidas |
+|---|---|---|
+| ![Carrinho](docs/carrinho.png) | ![Encomendas](docs/encomendas.png) | ![Medidas](docs/medidas.png) |
+
+<p align="center">
+  <img src="docs/celular.png" alt="Versão para celular" width="280">
+</p>
+
 ## O problema
 
 A loja divulga e vende apenas pelas redes sociais e pelo WhatsApp. Isso gera:
