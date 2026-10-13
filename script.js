@@ -27,8 +27,8 @@ const CONFIG = {
 
 /* status: "disponivel" | "esgotado" | "encomenda" */
 const produtos = [
-    { id: 1,  nome: "Jaqueta Preta",           preco: 150, tamanhos: ["P", "M"],      cor: "Preto",    status: "disponivel", imagem: "img/imagem1.jpg" },
-    { id: 2,  nome: "Casaco Pelinho",          preco: 120, tamanhos: ["P", "M", "G"], cor: "Caramelo", status: "disponivel", imagem: "img/imagem2.jpg" },
+    { id: 1,  nome: "Casaco Pelinho",          preco: 120, tamanhos: ["P", "M", "G"], cor: "Caramelo", status: "disponivel", imagem: "img/imagem1.jpg" },
+    { id: 2,  nome: "Jaqueta Preta",           preco: 150, tamanhos: ["P", "M"],      cor: "Preto",    status: "disponivel", imagem: "img/imagem2.jpg" },
     { id: 3,  nome: "Calça Jeans Wide Leg",    preco: 120, tamanhos: ["M", "G"],      cor: "Jeans",    status: "disponivel", imagem: "img/imagem3.jpg" },
     { id: 4,  nome: "Calça Courino Preta",     preco: 80,  tamanhos: ["M", "G"],      cor: "Preto",    status: "disponivel", imagem: "img/imagem4.jpg" },
     { id: 5,  nome: "Suéter Cinza",            preco: 60,  tamanhos: ["P", "M"],      cor: "Cinza",    status: "esgotado",   imagem: "img/imagem5.jpg" },
