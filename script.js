@@ -2,7 +2,7 @@
    CONFIGURAÇÃO — a Marisa só precisa mexer nesta parte
    ========================================================== */
 const CONFIG = {
-    whatsapp: "5551983245908",
+    whatsapp: "5551989600321",
 
     // Data no formato AAAA-MM-DD. Deixe "" se ainda não estiver definida.
     proximaEncomenda: {
