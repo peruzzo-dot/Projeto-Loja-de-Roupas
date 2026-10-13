@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marisa Senti - Moda Feminina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Marisa Senti</h1>
+        <nav id="menu">
+            <button data-secao="looks" onclick="mostrarSecao('looks')">Looks Disponíveis</button>
+            <button data-secao="encomendas" onclick="mostrarSecao('encomendas')">Próximas Encomendas</button>
+            <button data-secao="tamanhos" onclick="mostrarSecao('tamanhos')">Tamanhos</button>
+            <button data-secao="comprar" onclick="mostrarSecao('comprar')">Como Comprar</button>
+        </nav>
+    </header>
+
+    <main id="conteudo"></main>
+
+    <button id="btn-carrinho" onclick="abrirCarrinho()">Meu pedido (<span id="qtd">0</span>)</button>
+
+    <div id="carrinho" class="oculto">
+        <div class="carrinho-topo">
+            <h3>Meu Pedido</h3>
+            <button class="fechar" onclick="fecharCarrinho()" aria-label="Fechar">✕</button>
+        </div>
+        <ul id="lista-pedido"></ul>
+        <p id="total"></p>
+        <button onclick="finalizarNoWhatsApp()">Finalizar no WhatsApp</button>
+    </div>
+
+    <div id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
