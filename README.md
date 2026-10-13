@@ -8,11 +8,23 @@ Projeto desenvolvido como **extensão universitária**, em parceria com a propri
 
 > As imagens das peças são ilustrativas, usadas apenas para demonstrar a proposta.
 
+### Vitrine de looks
+
 ![Vitrine de looks](docs/vitrine.jpeg)
 
-| Pedido com total | Próximas encomendas | Tabela de medidas |
-|---|---|---|
-| ![Carrinho](docs/carrinho.png) | ![Encomendas](docs/encomendas.png) | ![Medidas](docs/medidas.png) |
+### Pedido com total
+
+![Pedido com total](docs/carrinho.png)
+
+### Próximas encomendas
+
+![Próximas encomendas](docs/encomendas.png)
+
+### Tabela de medidas
+
+![Tabela de medidas](docs/medidas.png)
+
+### Versão para celular
 
 <p align="center">
   <img src="docs/celular.png" alt="Versão para celular" width="280">
